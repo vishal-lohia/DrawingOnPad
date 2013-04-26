@@ -198,6 +198,8 @@
     lastPoint = [touch locationInView:self.view];
     
     
+    
+    
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
