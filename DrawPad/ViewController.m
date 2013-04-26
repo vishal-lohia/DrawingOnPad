@@ -196,6 +196,8 @@
     mouseSwiped = NO;
     UITouch *touch = [touches anyObject];
     lastPoint = [touch locationInView:self.view];
+    
+    
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
